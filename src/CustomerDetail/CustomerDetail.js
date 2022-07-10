@@ -81,7 +81,7 @@ const CustomerDetail = () => {
         setMobileNumber('')
         setAddress('')
         setUploadedFile(null)
-        uploadedFileRef.current.value = null
+        uploadedFileRef.current !== null && (uploadedFileRef.current.value = null)
     }
 
     const header = (
