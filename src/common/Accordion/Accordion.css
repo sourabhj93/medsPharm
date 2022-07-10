@@ -1,0 +1,14 @@
+.p-carousel-prev,
+.p-carousel-next {
+    background-color: azure !important;
+}
+
+.borderRadius {
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 450px) {
+.MuiGrid-root {
+    margin-left: 0px;
+}
+}

@@ -1,0 +1,27 @@
+.container-alignment {
+  margin-top: 70px;
+}
+.container-box {
+  background-color: azure;
+  height: 82px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.button {
+  background-color: darkcyan !important;
+  position: relative;
+  top: -26px;
+  left: 1100px;
+}
+@media screen and (max-width: 450px) {
+  .container-alignment {
+    margin-top: 64px;
+  }
+  .container-box {
+    height: 125px;
+  }
+  .button {
+    left: 280px;
+  }
+}

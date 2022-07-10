@@ -1,0 +1,34 @@
+.carousel-demo .product-item .product-item-content {
+    margin: .3rem;
+    text-align: center;
+    padding: 1.5rem 0 0 0;
+    width: 95%;
+}
+
+.carousel-demo .product-item .product-image {
+    width: 85%;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.carousel-demo .product-item .product-description {
+    color: teal;
+    padding: 0.5rem 1.75rem;
+    font-size: 1.1rem;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    color: teal;
+    background-color: teal;
+}
+
+.p-carousel-items-content {
+    border-radius: 0.8rem;
+    background-color: azure !important;
+}
+
+.p-carousel-prev,
+.p-carousel-next {
+    background-color: azure !important;
+}

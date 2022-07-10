@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1383e7ef.css",
+    "main.js": "/static/js/main.82786d39.js",
+    "static/js/787.0ab584f1.chunk.js": "/static/js/787.0ab584f1.chunk.js",
+    "static/media/skinCareCosmetic.jpg": "/static/media/skinCareCosmetic.ba5b37e9663d6d7100d4.jpg",
+    "static/media/generalItem.jpg": "/static/media/generalItem.7906b49e905b928cf09c.jpg",
+    "static/media/ayurvedicItem.jpg": "/static/media/ayurvedicItem.93cc33739dba18206d1f.jpg",
+    "static/media/bodyBelts.jpg": "/static/media/bodyBelts.8a64afe61be0ea83cca5.jpg",
+    "static/media/appLogo.jpg": "/static/media/appLogo.8950b1caa686118a3c9e.jpg",
+    "static/media/medicinal.jpg": "/static/media/medicinal.9a40eb12e768d1c05267.jpg",
+    "index.html": "/index.html",
+    "main.1383e7ef.css.map": "/static/css/main.1383e7ef.css.map",
+    "main.82786d39.js.map": "/static/js/main.82786d39.js.map",
+    "787.0ab584f1.chunk.js.map": "/static/js/787.0ab584f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1383e7ef.css",
+    "static/js/main.82786d39.js"
+  ]
+}

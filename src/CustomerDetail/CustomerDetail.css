@@ -1,0 +1,46 @@
+.headerName {
+    padding-left: 24px;
+    color: grey;
+}
+.p-card .p-card-footer {
+    padding: 0;
+}
+.p-card .p-card-body {
+    padding: 0rem 1.6rem 1rem 1.6rem !important;
+}
+.p-card .p-card-content {
+    padding: 0.5rem 0;
+}
+.card-container {
+    border: 1px solid #efefef;
+    position: relative;
+    top: 16px;
+}
+.back-button {
+    cursor: 'pointer';
+    width: '24%';
+}
+.spinner {
+    top: 150px;
+    left: 125px;
+}
+@media screen and (min-width: 450px) {
+    .headerName {
+        padding-left: 48px;
+    }
+    .p-card .p-card-body {
+        padding: 0rem 3rem 1.5rem 3rem !important;
+    }
+    .card-container {
+        position: relative;
+        top: 24px;
+    }
+    .back-button {
+        cursor: 'pointer'; 
+        width: '6%';
+    }
+    .spinner {
+        top: 200px;
+        left: 575px;
+    }
+}
