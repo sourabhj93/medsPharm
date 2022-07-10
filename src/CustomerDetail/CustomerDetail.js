@@ -43,7 +43,7 @@ const CustomerDetail = () => {
         };
         customerInput.append('file', uploadedFile)
         customerInput.append('customerInfo', JSON.stringify(customerInfo))
-        let url = "https://dc7e-183-87-122-170.in.ngrok.io/sendEmail";
+        let url = "https://medspharmabe.herokuapp.com/sendEmail";
         setSpinner(true)
         axios.post(url, customerInput, {
             headers: {
