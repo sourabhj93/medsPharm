@@ -1,5 +1,6 @@
 .container-alignment {
   margin-top: 70px;
+  margin-bottom: 48px;
 }
 .container-box {
   background-color: azure;
@@ -17,6 +18,7 @@
 @media screen and (max-width: 450px) {
   .container-alignment {
     margin-top: 64px;
+    margin-bottom: 32px;
   }
   .container-box {
     height: 125px;

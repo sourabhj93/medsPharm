@@ -17,6 +17,18 @@
     top: 16px;
     bottom: 20px;
 }
+.btn-tooltip {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 0px 0px 0px 7px;
+    background-color: steelblue;
+    margin-left: 8px;
+    border-color: steelblue;
+}
+.p-button:enabled:hover {
+    background-color: steelblue;
+}
 .back-button {
     cursor: 'pointer';
     width: '24%';
