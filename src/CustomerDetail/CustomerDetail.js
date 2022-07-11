@@ -120,7 +120,6 @@ const CustomerDetail = () => {
       <Button
         label="Save"
         icon="pi pi-check"
-        disabled={isDisable}
         className="me-2"
         onClick={sendCustomerDetails}
       />
