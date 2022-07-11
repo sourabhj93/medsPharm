@@ -24,10 +24,10 @@ export const SimpleSnackbar = ({ snackBarProps }) => {
 
   const handleClose = (event, reason) => {
     if (reason === 'timeout') {
-        setOpen(true);
+        setOpen(false);
     }
 
-    setOpen(true);
+    setOpen(false);
   };
 
   const action = (
