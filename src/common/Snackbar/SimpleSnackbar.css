@@ -1,10 +1,22 @@
-.MuiSnackbar-root {
-    position: absolute !important;
-    top: -603px;
-}
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 360px) {
     .MuiSnackbar-root {
-        left: 420px !important;
+        left: 8px !important;
+        height: 100px !important;
+        top: calc(100vh - 735px) !important;
+    }
+}
+@media screen and (min-width: 600px) {
+    .MuiSnackbar-root {
+        left: 60px !important;
+        height: 100px !important;
+        top: calc(100vh - 908px) !important;
+    }
+}
+@media screen and (min-width: 990px) {
+    .MuiSnackbar-root {
+        left: 200px !important;
+        height: 100px !important;
+        top: calc(100vh - 755px) !important;
     }
 }
 .MuiSnackbarContent-root {

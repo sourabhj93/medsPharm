@@ -101,7 +101,7 @@ const CustomerDetail = () => {
             ) : (
             <><Typography variant='body1' style={{ cursor: 'pointer' }} onClick={() => navigate('/')}>
                         <ArrowBackIosIcon style={{ color: 'white' }} /> <Typography variant='caption' style={{ fontSize: 20, color: 'whitesmoke', position: 'relative', top: 4, left: -4 }}>Back</Typography>
-                    </Typography><Card subTitle={subtitle} className='card-container' footer={footer} header={header}>
+                    </Typography><Card subTitle={subtitle} className='mb-3 card-container' footer={footer} header={header}>
                             {error && errorSnackbar()}
                             {success && successSnackbar()}
                             <Row className='mb-3'>

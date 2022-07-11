@@ -12,7 +12,7 @@
   background-color: darkcyan !important;
   position: relative;
   top: -26px;
-  left: 1100px;
+  left: calc(100vw - 180px);
 }
 @media screen and (max-width: 450px) {
   .container-alignment {
@@ -22,6 +22,11 @@
     height: 125px;
   }
   .button {
-    left: 280px;
+    left: calc(100vw - 120px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button {
+    left: calc(100vw - 270px);
   }
 }
