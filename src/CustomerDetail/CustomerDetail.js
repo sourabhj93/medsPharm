@@ -99,6 +99,7 @@ const CustomerDetail = () => {
     errors,
     values,
     isValid,
+    dirty,
     setFieldValue,
   } = useFormik({
     initialValues: {
@@ -277,7 +278,7 @@ const CustomerDetail = () => {
                     color="primary"
                     variant="contained"
                     type="submit"
-                    // disabled={!isValid}
+                    disabled={!(isValid && dirty)}
                     startIcon={<SaveIcon />}
                   >
                     Submit
