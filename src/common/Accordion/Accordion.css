@@ -1,14 +1,33 @@
 .p-carousel-prev,
 .p-carousel-next {
-    background-color: azure !important;
+  background-color: azure !important;
 }
 
 .borderRadius {
-    border-radius: 8px;
+  border-radius: 8px;
+}
+
+.MuiAccordionSummary-root {
+  border-radius: 8px !important;
+  height: 52px;
+}
+
+.MuiCollapse-wrapper {
+  padding-top: 12px;
+}
+
+.accordion-content {
+  text-align: center;
+  margin-left: -130px;
+}
+
+.MuiGrid-root {
+  margin-left: 0px;
 }
 
 @media screen and (max-width: 450px) {
-.MuiGrid-root {
-    margin-left: 0px;
-}
+  .accordion-content {
+    text-align: center;
+    margin-left: -100px;
+  }
 }

@@ -21,7 +21,8 @@
     margin-bottom: 32px;
   }
   .container-box {
-    height: 125px;
+    height: 128px;
+    margin-bottom: 0px;
   }
   .button {
     left: calc(100vw - 120px);
