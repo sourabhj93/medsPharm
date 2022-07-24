@@ -19,7 +19,7 @@ function App() {
           snackBarProps={{
             alert: true,
             message:
-              "Welcome to MedsPharm%. We are looking forward to serve your needs.",
+              "Welcome to Dava Ghar Tak. We are looking forward to serve your needs.",
             duration: "3500",
           }}
         />
