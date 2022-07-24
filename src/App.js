@@ -7,11 +7,13 @@ import Home from "./Components/Home/Home";
 import CustomerDetail from "./CustomerDetail/CustomerDetail";
 import { SimpleSnackbar } from "./common/Snackbar/FabIntegrationSnackbar";
 import { Error } from "./Components/Error/Error";
+import BasicExample from "./Components/NavBar/NavBar";
 
 function App() {
   return (
     <>
-      <NavHeader />
+      {/* <NavHeader /> */}
+      <BasicExample />
       <Container className="container-alignment">
         <SimpleSnackbar
           snackBarProps={{

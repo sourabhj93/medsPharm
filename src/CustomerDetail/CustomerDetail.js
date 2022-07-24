@@ -79,7 +79,6 @@ const CustomerDetail = () => {
     file: yup
       .mixed()
       .nullable()
-      .required("Please upload prescription")
       .test(
         "FILE_SIZE",
         "Uploaded file is too big",
@@ -131,7 +130,7 @@ const CustomerDetail = () => {
       address,
       description,
     };
-    customerInput.append("file", file);
+    file && customerInput.append("file", file);
     customerInput.append("customerInfo", JSON.stringify(customerInfo));
     let url = "https://medspharmabe.herokuapp.com/sendEmail";
     setSpinner(true);
@@ -251,7 +250,7 @@ const CustomerDetail = () => {
                   />
                 </Stack>
                 <Stack direction="row" mx={3} mb={1}>
-                  <strong htmlFor="prescription">Upload Prescription *</strong>
+                  <p htmlFor="prescription">Upload Prescription</p>
                 </Stack>
                 <Stack direction="row" mx={3} mb={1}>
                   <input
@@ -278,22 +277,9 @@ const CustomerDetail = () => {
                     color="primary"
                     variant="contained"
                     type="submit"
-                    disabled={!(isValid && dirty)}
                     startIcon={<SaveIcon />}
                   >
                     Submit
-                  </Button>
-                  <Button
-                    color="inherit"
-                    sx={{
-                      marginTop: { xs: 2, sm: 0 },
-                      marginLeft: { sm: 2, xs: 0 },
-                    }}
-                    variant="contained"
-                    startIcon={<RestartAltIcon />}
-                    type="button"
-                  >
-                    Reset
                   </Button>
                 </Stack>
               </Box>
