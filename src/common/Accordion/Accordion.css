@@ -23,10 +23,3 @@
 .MuiGrid-root {
   margin-left: 0px;
 }
-
-@media screen and (max-width: 450px) {
-  .accordion-content {
-    text-align: center;
-    margin-left: -100px;
-  }
-}
