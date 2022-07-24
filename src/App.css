@@ -1,5 +1,5 @@
 .container-alignment {
-  margin-top: 70px;
+  margin-top: 30px;
   margin-bottom: 48px;
 }
 .container-box {
@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 450px) {
   .container-alignment {
-    margin-top: 64px;
+    margin-top: 30px;
     margin-bottom: 32px;
   }
   .container-box {
