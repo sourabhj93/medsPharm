@@ -17,6 +17,7 @@ import babycare from "../images/babycare.jpg";
 import elderlycare from "../images/elderlycare.jpg";
 import haircare from "../images/haircare.jpg";
 import dentalcare from "../images/dentalcare.jpg";
+import baidyanth from "../images/baidyanth.jpg";
 import sexwellness from "../images/sexwellness.jpg";
 
 export const offers = [
@@ -79,7 +80,7 @@ export const brands = [
   {
     id: "1003",
     name: "Baidyanath",
-    image: complan,
+    image: baidyanth,
     avatar: "B",
   },
   {
