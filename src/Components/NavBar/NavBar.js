@@ -53,13 +53,13 @@ function BasicExample() {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
-                Free delivery above 500Rs/- only for medicines.
+                Free delivery above 500&#8377;/- only for medicines.
               </NavDropdown.Item>
               <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
-                Less than 500Rs/- delivery charge 50Rs/-
+                Less than 500&#8377;/- delivery charge 50&#8377;/-
               </NavDropdown.Item>
               <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
-                For FMCG product delivery charge 50Rs/-
+                For FMCG product delivery charge 50&#8377;/-
               </NavDropdown.Item>
               <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
                 For NRx and H1 drugs doctor's prescription is must.

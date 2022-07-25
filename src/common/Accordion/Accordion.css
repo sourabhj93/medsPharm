@@ -17,9 +17,17 @@
 }
 
 .accordion-content {
-  margin-left: -130px;
+  /* margin-left: -130px; */
+  text-align: center;
+  width: 50%;
 }
 
 .MuiGrid-root {
   margin-left: 0px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
 }

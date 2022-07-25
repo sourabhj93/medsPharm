@@ -28,7 +28,12 @@ export const SimpleAccordion = ({ productsName, brandName }) => {
           <Grid container spacing={4}>
             {brandName.map((brand) => (
               <Grid item md={4} xs={6}>
-                <BackgroundLetterAvatars brandObj={brand} />
+                <img
+                  src={brand.image}
+                  alt={brand.name}
+                  className="product-image"
+                />
+                {/* <BackgroundLetterAvatars brandObj={brand} /> */}
                 <Typography
                   sx={{
                     color: "teal",
