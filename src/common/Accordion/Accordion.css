@@ -27,12 +27,7 @@
 }
 
 img {
-  width: 35px;
-  height: 30px;
+  width: 80px;
+  height: 80px;
   border-radius: 8px;
-}
-@media screen and (min-width: 450px) {
-  img {
-    margin-right: 8px;
-  }
 }
