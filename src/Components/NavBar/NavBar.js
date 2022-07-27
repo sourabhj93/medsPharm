@@ -24,7 +24,6 @@ function BasicExample() {
           style={{
             fontSize: "24px",
             fontWeight: 700,
-            fontFamily: "cursive",
             color: "teal",
             marginLeft: -12,
             cursor: "pointer",
@@ -37,7 +36,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown
-              style={{ color: "teal", fontFamily: "serif" }}
+              style={{ color: "teal", fontFamily: "serif", width: "92%" }}
               title="Contact Us"
               id="basic-nav-dropdown"
             >
@@ -48,23 +47,53 @@ function BasicExample() {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
-              style={{ color: "teal", fontFamily: "serif" }}
+              style={{ color: "teal", fontFamily: "serif", width: "92%" }}
               title="Terms & Condition"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
+              <NavDropdown.Item
+                style={{
+                  color: "teal",
+                  fontFamily: "Serif",
+                  whiteSpace: "normal",
+                }}
+              >
                 Free delivery above 500&#8377;/- only for medicines.
               </NavDropdown.Item>
-              <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
+              <NavDropdown.Item
+                style={{
+                  color: "teal",
+                  fontFamily: "Serif",
+                  whiteSpace: "normal",
+                }}
+              >
                 Less than 500&#8377;/- delivery charge 50&#8377;/-
               </NavDropdown.Item>
-              <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
+              <NavDropdown.Item
+                style={{
+                  color: "teal",
+                  fontFamily: "Serif",
+                  whiteSpace: "normal",
+                }}
+              >
                 For FMCG product delivery charge 50&#8377;/-
               </NavDropdown.Item>
-              <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
+              <NavDropdown.Item
+                style={{
+                  color: "teal",
+                  fontFamily: "Serif",
+                  whiteSpace: "normal",
+                }}
+              >
                 For NRx and H1 drugs doctor's prescription is must.
               </NavDropdown.Item>
-              <NavDropdown.Item style={{ color: "teal", fontFamily: "Serif" }}>
+              <NavDropdown.Item
+                style={{
+                  color: "teal",
+                  fontFamily: "Serif",
+                  whiteSpace: "normal",
+                }}
+              >
                 No exchange and return of products.
               </NavDropdown.Item>
             </NavDropdown>
