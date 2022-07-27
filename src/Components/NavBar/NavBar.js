@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/images/appLogo.jpg";
+import "./NavBar.css";
 
 function BasicExample() {
   const navigate = useNavigate();
