@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../../assets/images/appLogo.jpg";
 import "./NavBar.css";
 
-function BasicExample() {
+function NavBars() {
   const navigate = useNavigate();
   return (
     <Navbar bg="light" expand="lg">
@@ -105,4 +105,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavBars;

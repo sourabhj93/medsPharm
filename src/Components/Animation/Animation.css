@@ -1,0 +1,26 @@
+@media screen and (max-width: 450px) {
+  .slide-in-width {
+    width: 400px;
+    height: 120px;
+  }
+}
+.slide-in {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+    color: greenyellow;
+  }
+
+  to {
+    margin-left: 5%;
+    width: 100%;
+    color: aquamarine;
+  }
+}

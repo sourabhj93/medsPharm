@@ -5,14 +5,16 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import CustomerDetail from "./CustomerDetail/CustomerDetail";
 import { SimpleSnackbar } from "./common/Snackbar/FabIntegrationSnackbar";
-import BasicExample from "./Components/NavBar/NavBar";
+import NavBars from "./Components/NavBar/NavBar";
+import Animation from "./Components/Animation/Animation";
 
 function App() {
   return (
     <>
       {/* <NavHeader /> */}
-      <BasicExample />
+      <NavBars />
       <Container className="container-alignment">
+        <Animation />
         <SimpleSnackbar
           snackBarProps={{
             alert: true,
