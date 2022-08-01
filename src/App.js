@@ -6,7 +6,6 @@ import Home from "./Components/Home/Home";
 import CustomerDetail from "./CustomerDetail/CustomerDetail";
 import { SimpleSnackbar } from "./common/Snackbar/FabIntegrationSnackbar";
 import NavBars from "./Components/NavBar/NavBar";
-import Animation from "./Components/Animation/Animation";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       {/* <NavHeader /> */}
       <NavBars />
       <Container className="container-alignment">
-        <Animation />
         <SimpleSnackbar
           snackBarProps={{
             alert: true,
