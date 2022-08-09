@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/images/appLogo.jpg";
+import QR from "../../assets/images/QR.jpg";
 import "./NavBar.css";
 
 function NavBars() {
@@ -31,24 +32,58 @@ function NavBars() {
           }}
           onClick={() => navigate("/")}
         >
-          Dava Ghar Tak
+          Arihant Medical
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown
-              style={{ color: "teal", fontFamily: "serif", width: "92%" }}
+              style={{
+                color: "teal",
+                fontFamily: "serif",
+                width: "92%",
+                cursor: "not-allowed",
+              }}
               title="Contact Us"
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item
-                style={{ color: "teal", fontFamily: "Monospace" }}
+                style={{
+                  color: "teal",
+                  fontFamily: "Monospace",
+                  cursor: "not-allowed",
+                }}
               >
                 +91 8817761119
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
-              style={{ color: "teal", fontFamily: "serif", width: "92%" }}
+              style={{
+                color: "teal",
+                fontFamily: "serif",
+                width: "92%",
+                cursor: "not-allowed",
+              }}
+              title="Payment using QR"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item>
+                <img
+                  src={QR}
+                  width="60"
+                  height="60"
+                  className="d-inline-block align-top"
+                  alt="QR scanner"
+                />
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown
+              style={{
+                color: "teal",
+                fontFamily: "serif",
+                width: "92%",
+                cursor: "not-allowed",
+              }}
               title="Terms & Condition"
               id="basic-nav-dropdown"
             >
