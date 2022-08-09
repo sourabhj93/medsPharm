@@ -25,7 +25,7 @@ function NavBars() {
             fontSize: 20,
             fontWeight: 600,
             color: "dark blue",
-            marginLeft: -10,
+            marginLeft: -16,
             cursor: "pointer",
           }}
           onClick={() => navigate("/")}
