@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/images/new_logo.jpg";
-import QR from "../../assets/images/qr.jpg";
+import QR from "../../assets/images/QRs.jpg";
 import "./NavBar.css";
 
 function NavBars() {
