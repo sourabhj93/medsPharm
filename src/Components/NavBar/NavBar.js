@@ -10,7 +10,7 @@ function NavBars() {
   const navigate = useNavigate();
   return (
     <Navbar bg="light" expand="lg">
-      <div className="container-fluid ms-4">
+      <div className="container-fluid">
         <Navbar.Brand>
           <img
             src={logo}
@@ -22,10 +22,10 @@ function NavBars() {
         </Navbar.Brand>
         <Navbar.Brand
           style={{
-            fontSize: 20,
-            fontWeight: 600,
+            fontSize: 22,
+            fontWeight: 700,
             color: "dark blue",
-            marginLeft: -16,
+            marginLeft: -12,
             cursor: "pointer",
           }}
           onClick={() => navigate("/")}
