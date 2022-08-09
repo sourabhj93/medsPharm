@@ -1,11 +1,24 @@
 img {
-  width: 35px;
-  height: 30px;
+  width: 46px;
+  height: 40px;
   margin-right: 8px;
+}
+.signName {
+  color: "teal";
+  font-size: 12px;
+  font-family: "cursive";
+  position: "absolute";
+  bottom: 35px;
+  left: 95px;
 }
 @media screen and (max-width: 450px) {
   img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+  }
+  .signName {
+    font-size: 16px;
+    bottom: 48px;
+    left: 112px;
   }
 }

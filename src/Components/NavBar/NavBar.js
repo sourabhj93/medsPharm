@@ -2,8 +2,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/images/appLogo.jpg";
-import QR from "../../assets/images/QR.jpg";
+import logo from "../../assets/images/new_logo.jpg";
+import QR from "../../assets/images/qr.jpg";
 import "./NavBar.css";
 
 function NavBars() {
@@ -14,8 +14,6 @@ function NavBars() {
         <Navbar.Brand>
           <img
             src={logo}
-            width="30"
-            height="30"
             onClick={() => navigate("/")}
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
@@ -24,15 +22,15 @@ function NavBars() {
         </Navbar.Brand>
         <Navbar.Brand
           style={{
-            fontSize: "24px",
+            fontSize: 20,
             fontWeight: 700,
-            color: "teal",
+            color: "dark blue",
             marginLeft: -12,
             cursor: "pointer",
           }}
           onClick={() => navigate("/")}
         >
-          Arihant Medical
+          Arihant Medical Stores
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -54,7 +52,7 @@ function NavBars() {
                   cursor: "not-allowed",
                 }}
               >
-                +91 8817761119
+                <a href="tel:8817761119">+91 8817761119</a>
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
