@@ -23,14 +23,14 @@ function NavBars() {
         <Navbar.Brand
           style={{
             fontSize: 20,
-            fontWeight: 700,
+            fontWeight: 600,
             color: "dark blue",
-            marginLeft: -12,
+            marginLeft: -10,
             cursor: "pointer",
           }}
           onClick={() => navigate("/")}
         >
-          Arihant Medical Stores
+          Arihant Medical Store
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
