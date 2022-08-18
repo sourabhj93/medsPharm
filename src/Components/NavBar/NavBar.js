@@ -30,7 +30,7 @@ function NavBars() {
           }}
           onClick={() => navigate("/")}
         >
-          <span style={{ fontSize: 28, fontWeight: 700 }}>Arihant </span>Medical
+          <span style={{ fontSize: 26, fontWeight: 700 }}>Arihant </span>Medical
           Stores
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
